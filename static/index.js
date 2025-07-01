@@ -290,7 +290,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
     }
 
     function createTimeText(n) {
-        return 'TIME:' + Math.ceil(n);
+        return 'TIME: ' + Math.ceil(n);
     }
 
     let _ttreg = / t{1,2}(\d+)/,
